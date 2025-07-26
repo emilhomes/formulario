@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/style.css">
     <title>Cadastro</title>
 </head>
+
 <body>
-    
+
     <main id="container">
         <div id="form_header">
             <h1 id="form_title">Create Account</h1>
@@ -23,9 +28,7 @@
                     <input type="text" name="name" id="name" class="form_control" placeholder="First Name">
                     <i class="fa-regular fa-user"></i>
                 </div>
-            </div>
 
-            <div id="input_container">
                 <div class="input_box">
                     <label for="last_name" class="form_label">Last Name</label>
                 </div>
@@ -33,18 +36,14 @@
                     <input type="text" name="last_name" id="last_name" class="form_control" placeholder="Last Name">
                     <i class="fa-regular fa-user"></i>
                 </div>
-            </div>
 
-            <div id="input_container">
                 <div class="input_box">
                     <label for="birthdate" class="form_label">Birth Date</label>
                 </div>
                 <div class="input-field">
                     <input type="date" name="birthdate" id="birthdate" class="form_control" placeholder="Birth Date">
                 </div>
-            </div>
 
-            <div id="input_container">
                 <div class="input_box">
                     <label for="email" class="form_label">E-mail</label>
                 </div>
@@ -52,9 +51,7 @@
                     <input type="email" name="email" id="email" class="form_control" placeholder="exemplo@gmail.com">
                     <i class="fa-regular fa-envelope"></i>
                 </div>
-            </div>
 
-            <div id="input_container">
                 <div class="input_box">
                     <label for="password" class="form_label">Password</label>
                 </div>
@@ -62,35 +59,34 @@
                     <input type="password" name="password" id="password" class="form_control" placeholder="**********">
                     <i class="fa-regular fa-eye-slash password_icon"></i>
                 </div>
-            </div>
 
-            <div id="input_container">
                 <div class="input_box">
                     <label for="confirm-password" class="form_label">Confirm Password</label>
                 </div>
                 <div class="input-field">
-                    <input type="password" name="confirm-password" id="confirm-password" class="form_control" placeholder="**********">
+                    <input type="password" name="confirm-password" id="confirm-password" class="form_control"
+                        placeholder="**********">
                     <i class="fa-regular fa-eye-slash password_icon"></i>
                 </div>
-            </div>
 
-            <div class="radio-container-gender">
-                <label class="form_label">Gender</label>
+                <div class="radio-container-gender">
+                    <label class="form_label">Gender</label>
 
-                <div id="gender_inputs">
-                    <div id="radio-box">
-                        <input type="radio" name="gender" id="female" class="form_control" value="female">
-                        <label for="female" class="form_label">Female</label>
-                    </div>
+                    <div id="gender_inputs">
+                        <div id="radio-box">
+                            <input type="radio" name="gender" id="female" class="form_control" value="female">
+                            <label for="female" class="form_label">Female</label>
+                        </div>
 
-                    <div id="radio-box">
-                        <input type="radio" name="gender" id="male" class="form_control" value="male">
-                        <label for="male" class="form_label">Male</label>
-                    </div>
+                        <div id="radio-box">
+                            <input type="radio" name="gender" id="male" class="form_control" value="male">
+                            <label for="male" class="form_label">Male</label>
+                        </div>
 
-                    <div id="radio-box">
-                        <input type="radio" name="gender" id="other" class="form_control" value="other">
-                        <label for="other" class="form_label">Other</label>
+                        <div id="radio-box">
+                            <input type="radio" name="gender" id="other" class="form_control" value="other">
+                            <label for="other" class="form_label">Other</label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -100,4 +96,5 @@
     </main>
 
 </body>
+
 </html>
